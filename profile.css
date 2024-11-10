@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f8ff;
+    color: #374a63;
+    margin: 0;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Buat lingkaran */
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
+}
+h1 {
+    margin: 10px 0 5px;
+    font-size: 26px;
+    color: #374a63;
+}
+section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(55, 74, 99, 0.1);
+    display: none; /* Awalnya tersembunyi */
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #374a63;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2c3c51;
+}
+.contact-info p {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+.contact-info i {
+    margin-right: 10px;
+    color: #374a63;
+}
+.contact-info a {
+    text-decoration: none;
+    color: #374a63;
+}
